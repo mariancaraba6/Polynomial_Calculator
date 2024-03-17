@@ -150,13 +150,12 @@ public class OperationsTest {
     public void testRegEx() {
         String string1 = "-5x^3-3x^2+6x-4";
         String string2 = "4x^2+4x-10";
+
         Polynomial polynomial1 = Operations.stringToPolynomial(string1);
         Polynomial polynomial2 = Operations.stringToPolynomial(string2);
 
-        Polynomial result = Operations.integrate(polynomial1);
-
         System.out.println(polynomial1);
         System.out.println(polynomial2);
-        System.out.println(result);
+
     }
 }

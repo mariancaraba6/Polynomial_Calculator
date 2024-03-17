@@ -129,7 +129,8 @@ public class Operations {
     }
     public static Polynomial stringToPolynomial(String string) {
         Polynomial newPolynomial = new Polynomial();
-        Pattern pattern = Pattern.compile("(\\+|-)?(\\d+x|\\d+)(\\^\\d+)?");
+//        Pattern pattern = Pattern.compile("(\\+|-)?(\\d+x|\\d+)(\\^\\d+)?");
+        Pattern pattern = Pattern.compile("(\\+|-)?(\\d*x|\\d+)(\\^\\d+)?");
         Matcher matcher = pattern.matcher(string);
         while(matcher.find()) {
             Integer degree = 0;
