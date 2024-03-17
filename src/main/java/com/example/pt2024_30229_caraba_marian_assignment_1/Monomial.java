@@ -11,9 +11,6 @@ public class Monomial {
 
     public double getCoefficient() { return coefficient; }
 
-    public void setDegree(Integer degree) {
-        this.degree = degree;
-    }
 
     public void setCoefficient(double coefficient) {
         this.coefficient = coefficient;

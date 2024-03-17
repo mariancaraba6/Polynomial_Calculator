@@ -1,6 +1,5 @@
 package com.example.pt2024_30229_caraba_marian_assignment_1;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
