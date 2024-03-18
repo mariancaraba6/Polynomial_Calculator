@@ -99,11 +99,11 @@ public class OperationsTest {
         // Expected quotient polynomial: 2.0x + 1.0
         Polynomial expectedQuotient = new Polynomial();
         expectedQuotient.addMonomial(new Monomial(1, 3.0));
+        expectedQuotient.addMonomial(new Monomial(0, -1.0));
 
         // Expected remainder polynomial: 0 (since dividend evenly divisible by divisor)
         Polynomial expectedRemainder = new Polynomial();
-        expectedRemainder.addMonomial(new Monomial(1, -1.0));
-        expectedRemainder.addMonomial(new Monomial(0, 1.0));
+        expectedRemainder.addMonomial(new Monomial(0, 2.0));
 
         // Call the divide method
         ArrayList<Polynomial> result = Operations.divide(dividend, divisor);

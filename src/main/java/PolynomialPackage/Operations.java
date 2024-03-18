@@ -81,7 +81,7 @@ public class Operations {
         Polynomial quotient =  new Polynomial();
         Polynomial reminder =  new Polynomial(dividend);
 
-        while(!reminder.isZero() && reminder.highestDegree() > divisor.highestDegree()) {
+        while(!reminder.isZero() && reminder.highestDegree() >= divisor.highestDegree()) {
             Monomial leadingDividendTerm = reminder.getLeadingTerm();
             Monomial leadingDivisorTerm = divisor.getLeadingTerm();
 
