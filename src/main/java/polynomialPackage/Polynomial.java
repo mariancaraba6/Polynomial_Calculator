@@ -1,4 +1,4 @@
-package PolynomialPackage;
+package polynomialPackage;
 
 import java.util.HashMap;
 import java.util.Map;

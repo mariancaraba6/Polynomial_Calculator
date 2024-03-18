@@ -1,8 +1,8 @@
 package com.example.pt2024_30229_caraba_marian_assignment_1;
 
-import PolynomialPackage.Monomial;
-import PolynomialPackage.Operations;
-import PolynomialPackage.Polynomial;
+import polynomialPackage.Monomial;
+import polynomialPackage.Operations;
+import polynomialPackage.Polynomial;
 import org.junit.Test;
 
 import java.util.ArrayList;

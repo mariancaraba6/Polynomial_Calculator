@@ -1,7 +1,7 @@
 package com.example.pt2024_30229_caraba_marian_assignment_1;
 
-import PolynomialPackage.Operations;
-import PolynomialPackage.Polynomial;
+import polynomialPackage.Operations;
+import polynomialPackage.Polynomial;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

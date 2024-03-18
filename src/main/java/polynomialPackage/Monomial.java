@@ -1,4 +1,4 @@
-package PolynomialPackage;
+package polynomialPackage;
 
 public class Monomial {
     private Integer degree;
